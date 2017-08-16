@@ -1,0 +1,19 @@
+**
+ * Created by cjb on 16/08/2017.
+ */
+public class Teste1 {
+    /*Caso 1 Passagem Por Valor*/
+    static int metodo_teste(int a)
+    {
+        int x = --a;
+        return x;
+    }
+
+    public static void main(String[]args){
+        int y = 2;
+
+        System.out.println("Variavel y Antes = " + y);
+        System.out.println("Resultado = " + metodo_teste(y));
+        System.out.println("Variavel y Depois = " + y);
+    }
+}
